@@ -1,8 +1,8 @@
 // posts için gerekli routerları buraya yazın
 
 const express = require('express');
-const Posts = require('./posts-model');
-
+//const Posts = require('./posts-model');
+const Posts = require('../data/db');
 const router = express.Router();
 
 // [GET] /api/posts
